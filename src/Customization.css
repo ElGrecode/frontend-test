@@ -1,0 +1,14 @@
+.Customization ul {
+  position: relative;
+  width: 100%;
+}
+
+.Customization ul {
+  list-style: none;
+}
+
+.Customization .btn {
+  padding: 10px 20px;
+  border: 1px solid black;
+  font-size: 1.2rem;
+}

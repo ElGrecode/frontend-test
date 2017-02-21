@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  position: relative;
+}
+
+.App section {
+  float: left;
+  width: 33%;
+}
+
+.App img {
+  width: 100%;
 }
 
 .App-logo {

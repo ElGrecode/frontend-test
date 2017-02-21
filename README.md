@@ -5,6 +5,9 @@ The goal of this test is mimic some of the functionality we currently see on the
 - [ ] Get requests for our two endpoints (*/sizes* and */height*) (Please note: these are on port 5555 because we are faking a server, so ports will need to be included in the request)
 - [ ] Utilizing this data to build our size component and height component
 
+#### CSS Problem
+- [ ] Why is the button extending 3 column lengths? Can we fix this.
+
 #### UI Functionality
 *Dress Size*
 - [ ] Clicking on `Dress Size` will pull out a drawer section that will overlay on top of the customization area
