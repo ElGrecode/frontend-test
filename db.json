@@ -1,0 +1,15 @@
+{
+	"sizes": {
+		"us_sizes": [
+			0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22
+		],
+		"au_sizes": [
+			4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26
+		]
+	},
+	"height": {
+		"petite": "Smaller than 167cm / 5' 7\"",
+		"standard": "Between 168cm / 5' 7\" and 174cm / 5' 10\"",
+		"tall": "Taller than 175cm / 5' 10\""
+	}
+}
