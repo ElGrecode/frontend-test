@@ -36,7 +36,7 @@ The goal of this test is to create a drawer pattern in which we can select optio
 - [ ] Clicking on `Height` button will pull out a drawer section that will overlay on top of the customization area
 - [ ] The `Height` Drawer component will display all available height options (Petite, Standard, Tall) in buttons with information regarding those heights adjacent to the button.
 - [ ] Clicking on a height will "save" that size to local memory (state) and pull back the drawer overlay
-- [ ] This size information will be inline with `Height and Hemline`
+- [ ] This size information will display next to the `Height` button.
 
 *Add to Bag*
 - [ ] Add to Bag button click should generate a JSON object with keys of `size` and `height`
