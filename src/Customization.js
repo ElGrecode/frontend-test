@@ -10,20 +10,20 @@ class Customization extends Component {
   handleCustomizationSelection(customizationOption){
     return () => {
       console.log(customizationOption)
-      // Do something here to open our size or height components
+      // TODO: Do something here to open our Size / Height drawer components
     };
   }
 
   render() {
     return (
       <div className="Customization">
-        <h3>Specify Your Size</h3>
+        <h3>Selection Area</h3>
         <ul>
           <li onClick={this.handleCustomizationSelection('size')}>
-            <span>Dress Size</span><span className='chosen'></span>
+            <button><span>Dress Size</span><span className='chosen'></span></button>
           </li>
           <li onClick={this.handleCustomizationSelection('height')}>
-            <span>Height and Hemline</span><span className='chosen'></span>
+            <button><span>Height</span><span className='chosen'></span></button>
           </li>
         </ul>
 
